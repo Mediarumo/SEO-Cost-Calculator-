@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Cost Calculator 💰</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>SEO Cost Calculator 🔍</h1>
+    <p>Find out how much your SEO strategy will cost! 💸</p>
+  </header>
+
+  <section class="calculator">
+    <h2>Calculate Your SEO Costs 📊</h2>
+    <form id="seoForm">
+      <label for="websiteSize">Website Size 🖥️</label>
+      <select id="websiteSize">
+        <option value="small">Small (1-50 pages)</option>
+        <option value="medium">Medium (51-200 pages)</option>
+        <option value="large">Large (201+ pages)</option>
+      </select>
+
+      <label for="industry">Industry 🏢</label>
+      <select id="industry">
+        <option value="ecommerce">E-commerce 🛍️</option>
+        <option value="healthcare">Healthcare 🏥</option>
+        <option value="tech">Technology 💻</option>
+        <option value="other">Other 🌐</option>
+      </select>
+
+      <label for="keywords">Target Keywords 🔑</label>
+      <input type="number" id="keywords" placeholder="Number of keywords" min="1">
+
+      <button type="submit">Calculate Cost 💰</button>
+    </form>
+  </section>
+
+  <section class="results" id="results">
+    <h2>Your Estimated SEO Costs 💸</h2>
+    <p id="costResult">Fill out the form to see your estimate!</p>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by [Your Name]</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
